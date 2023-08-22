@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../views/partials/Head'); %>
+</head>
+
+<body>
+    <header>
+        <%- include('../views/partials/Header'); %>
+    </header>
+    <main class="main3">
+        <article class="articulos-carrito">
+            <div><img src="/img/macbook.jpg" alt="macbook"></div>
+            <div>
+                <p style="width: 160px;">MacBook Pro 13" 256GB</p>
+                <select id="agregar">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+            <div><button style="width: 36px;
+                height: 24px;
+                background-color: #d9d9d9;
+            "><img src="/img/akar-icons_trash-can.svg" alt="borrar"></button>
+            <p>$350.000</p></div>
+
+        </article>
+        <article class="articulos-carrito">
+            <div><img src="/img/s22.jpg" alt="samsung"></div>
+            <div>
+                <p style="width: 160px;">Samsung S21+ 5G</p>
+                <select id="agregar">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+            <div><button style="width: 36px;
+                height: 24px;
+                background-color: #d9d9d9;
+            "><img src="/img/akar-icons_trash-can.svg" alt="borrar"></button>
+            <p>$184.999</p></div>
+
+        </article>
+        <div class="total">
+            <div class="subtotal">
+                <p>Subtotal</p>
+                <p>$534.998</p>
+            </div>
+            <div class="total-">
+                <p>Total</p>
+                <p>$534.998</p>
+            </div>
+        </div>
+        <div class="finalizar"><button>FINALIZAR COMPRA</button></div>
+        </div>
+    </main>
+    <footer>
+        <%- include('../views/partials/Footer'); %>
+    </footer>
+</body>
+
+
+</html>

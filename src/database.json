@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "nombre": "MacBook Pro 13",
+        "descripcion": "",
+        "precio": 349.999
+    },
+    {
+        "id": 2,
+        "nombre": "Samsung S21+",
+        "descripcion": "",
+        "precio": 185.000
+    },
+    {
+        "id": 3,
+        "nombre": "Motorola G72 128GB", 
+        "descripcion": "", 
+        "precio": 120.000
+    },
+    {
+        "id": 4,
+        "nombre": "Notebook HP Pavilion X360", 
+        "descripcion": "", 
+        "precio": 439.000
+    }
+]

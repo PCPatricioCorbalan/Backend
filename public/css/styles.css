@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kufam&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alatsi&family=Inter:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&display=swap");
+
+:root {
+  --iron: #e4e4e6;
+  --smartblue: #548687;
+  --mulledwine: #56445d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--iron);
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.head {
+  background-color: var(--smartblue);
+  display: flex;
+  font-family: "Londrina Solid";
+  font-size: 32px;
+  justify-content: space-between;
+}
+
+.butons {
+  display: flex;
+  align-items: center;
+  border-radius: 100%;
+  font-size: smaller;
+}
+
+.logo {
+  border-radius: 100%;
+  font-size: smaller;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 5px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 5px;
+  font-family: "Inter";
+  font-size: 12px;
+}
+
+article img {
+  border-radius: 10px;
+}
+
+article button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  width: 87px;
+  border-left-color: transparent;
+  height: 14px;
+  font-family: "Inter";
+  border-radius: 7px;
+}
+
+.buton-home {
+  display: flex;
+  gap: 45px;
+  flex-direction: row;
+}
+
+footer {
+  background-color: var(--mulledwine);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.redes {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+a {
+  font-family: "Kufam";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: black;
+}
+
+.redes2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: inherit;
+}
+
+.foot {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.macbook {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Alatsi";
+  font-size: 24px;
+}
+
+.detail-product-botton {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.detail-boton {
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  width: 123px;
+  border-left-color: transparent;
+  height: 40px;
+  font-family: "Inter";
+  font-size: large;
+  border-radius: 15px;
+  background-color: #d9d9d9;
+}
+li {
+  font-family: "Abel";
+}
+.total {
+  flex-direction: column;
+  width: -webkit-fill-available;
+  height: 36px;
+}
+.subtotal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "SAbhaya Libre";
+}
+.total- {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-family: "ABeeZee";
+  font-size: 26px;
+}
+
+.finalizar {
+  display: flex;
+  width: -webkit-fill-available;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.finalizar button {
+  width: 181px;
+  height: 50px;
+  border-radius: inherit;
+  font-family: "ABeeZee";
+  font-size: 20px;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--mulledwine);
+  border-radius: 8%;
+  width: 350px;
+  height: 430px;
+  justify-content: space-around;
+  align-items: center;
+}
+.login p {
+  font-family: "Londrina Solid";
+  font-size: 32px;
+}
+.rec-contraseña {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.register {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--mulledwine);
+  border-radius: 8%;
+  width: 350px;
+  height: 450px;
+  justify-content: space-around;
+  align-items: center;
+}
+.register p {
+  font-family: "Londrina Solid";
+  font-size: 32px;
+}
+.articulos-carrito {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  flex-wrap: wrap;
+}
+.articulos-carrito div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-family: "Inter";
+  font-size: 14px;
+}
+select {
+  background-color: #d9d9d9;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  border-radius: 6px;
+}
+
+.main3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 5px;
+}
